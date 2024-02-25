@@ -1,0 +1,505 @@
+@font-face {
+    font-family: "Parisienne";
+    src: url(Parisienne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Cormorant-light";
+    src: url(CormorantGaramond-Light.ttf);
+}
+
+@font-face {
+    font-family: "Cormorant-regular";
+    src: url(CormorantGaramond-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2eee4;
+    overflow-x: hidden;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+img.logo {
+    position: absolute;
+    top: 0.472rem;
+    left: 0;
+    max-height: 15%;
+    max-width: 25%;
+    margin-left: 9.188rem;
+    z-index: 3;
+}
+
+.header {
+    background-color: #d6ccc2;
+    height: 7.087rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem;
+}
+
+.voortgang {
+    width: auto;
+    height: 0.709rem;
+    margin-top: 2.362rem;
+    margin-right: 0.236rem;
+}
+
+.voortgang-container {
+    margin-left: 2.362rem;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pijl-container {
+    margin-right: 11.811rem;
+}
+
+.pijl-container img {
+    width: auto;
+    height: 0.709rem;
+    margin-left: 0rem;
+    margin-top: 2.362rem;
+}
+
+.huis-container {
+    position: absolute;
+    top: 0.625em;
+    left: 0.625rem;
+    height: 2.362rem;
+}
+
+.huis-container img {
+    width: auto;
+    height: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.titel {
+    margin-top: -1.25rem;
+    text-align: center;
+    font-family: "Cormorant-light";
+    font-size: 1.75rem;
+}
+
+.vierkant-img {
+    margin-left: 2.362rem;
+    margin-right: 2.362rem;
+    max-width: calc(100% - 4.724rem);
+    display: block;
+    margin-bottom: 2.5rem;
+    max-height: 31.25rem;
+}
+
+.hoofdteksten {
+    text-align: center;
+    font-size: 1.063rem;
+    margin-left: 1.181rem;
+    margin-right: 1.181rem;
+    margin-bottom: 0rem;
+    margin-top: -0.938rem;
+    font-family: "Cormorant-regular";
+    position: relative;
+    z-index: 2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gekozenitem {
+    margin-top: -1.25rem;
+    text-align: center;
+    font-family: "Cormorant-regular";
+    font-weight: bold;
+}
+
+.imagetas-container {
+    margin-top: -2.5rem;
+}
+
+.imagetas {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 3;
+    margin-top: -4.252rem;
+}
+
+.welkom {
+    text-align: center;
+    font-family: "Parisienne";
+    font-weight: bold;
+    font-size: 1.563rem;
+    margin-top: -2.362rem;
+    top: 0;
+    z-index: 2;
+}
+
+.overons {
+    position: absolute;
+    top: 22%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 1.313rem;
+    font-family: "Cormorant-regular";
+    font-weight: bold;
+}
+
+.hoewerkthet {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 1.25rem;
+    width: 100%;
+    font-family: "Cormorant-light";
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.img-container {
+    flex: 0 0 4.724rem;
+    margin-right: 0.709rem;
+    margin-bottom: 2.25rem;
+}
+
+.img-icon {
+    width: 5.905rem;
+    height: auto;
+    margin-left: 0.472rem;
+    margin-top: 3.75rem;
+}
+
+.text-container {
+    flex: 1;
+    margin-top: 3.071rem;
+}
+
+.text-container h2 {
+    margin: 0;
+    text-align: left;
+    font-family: "Parisienne";
+    font-size: 1.375rem;
+    margin-right: 0.625rem;
+    margin-bottom: 0.236rem;
+}
+
+.text-container p {
+    font-size: 0.938rem;
+    margin-right: 1.181rem;
+    margin-top: 0rem;
+    text-align: left;
+    margin-right: 0.625rem;
+    font-family: "Cormorant-regular";
+}
+
+.button-container {
+    position: relative;
+    width: 11.811rem;
+    height: 4.724rem;
+    margin: 0 auto;
+}
+
+.button-image {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 11.811rem;
+    height: 4.724rem;
+    display: block;
+}
+
+.button-text {
+    position: absolute;
+    top: 20%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: "Cormorant-regular";
+    font-weight: bold;
+}
+
+.wiezijnwij-image {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 11.811rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.wiezijnwij-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.watdoenwij {
+    position: absolute;
+    top: 118%;
+    left: 20%;
+    transform: translateX(-50%);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    font-family: "Parisienne";
+}
+
+.wiezijnwij-text {
+    position: absolute;
+    top: 49%;
+    right: 0;
+    font-size: 0.813rem;
+    transform: translate(0, -50%);
+    padding: 1.25rem;
+    width: 50%;
+    font-family: "Cormorant-regular";
+}
+
+.wiezijnwij-text p {
+    margin: 0;
+    top: 45%;
+}
+
+.recept-tekst {
+    margin-left: 3.543rem;
+    margin-right: 3.543rem;
+}
+
+.recept-titel,
+.recept-info {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Cormorant-regular";
+    margin-left: 1.181rem;
+    margin-right: 1.181rem;
+    text-align: center;
+}
+
+.recept-titel,
+.recept-tekst {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Cormorant-light";
+}
+
+.recept-tekst2 {
+    font-size: 0.938rem;
+    font-weight: 10;
+    margin-left: 3.543rem;
+    margin-right: 3.543rem;
+    text-align: center;
+}
+
+.centered-image {
+    display: block;
+    width: 28.346rem;
+    height: 28.346rem;
+    margin-left: 2.362rem;
+    position: relative;
+    top: -8.125rem;
+    z-index: 1;
+}
+
+.left-aligned-image {
+    display: block;
+    float: left;
+    margin-right: 0.625rem;
+    width: 11.811rem;
+    height: 11.811rem;
+    margin-left: 0.709rem;
+    z-index: 2;
+    position: relative;
+    top: 8.75rem;
+}
+
+.image-text {
+    position: absolute;
+    top: 76.875rem;
+    left: 1.875rem;
+    transform: translateY(-50%);
+    z-index: 3;
+    color: black;
+    font-size: 1.25rem;
+    text-align: center;
+    max-width: 10rem;
+    font-family: "Parisienne";
+}
+
+.button-image2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 11.811rem;
+    height: 4.724rem;
+    display: block;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    object-position: bottom;
+    display: block;
+    bottom: 0;
+}
+
+.button-text2 {
+    position: absolute;
+    top: -0.709rem;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-family: "Cormorant-regular";
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0;
+}
+
+.button-container2 {
+    position: absolute;
+    top: calc(100% + 20cm);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    object-fit: cover;
+    object-position: bottom;
+    display: block;
+    bottom: 0;
+}
+
+.custom-font {
+    font-family: "Cormorant-regular";
+    font-size: 0.75rem;
+}
+
+.container {
+    width: 80%;
+    margin: 2.362rem auto;
+    background-color: #F2eee4;
+    padding: 0;
+    position: relative;
+}
+
+.container div {
+    width: 100%;
+}
+
+.container-special {
+    background-color: #e4d5cb;
+    font-size: 0.938rem;
+    position: absolute;
+}
+
+.container-keuze {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.pakketimage {
+    position: relative;
+    width: calc(100% - 0.4cm);
+    margin-left: 0.472rem;
+    margin-right: 0.472rem;
+    max-width: 100%;
+    max-height: 21.875rem;
+    margin-bottom: 2.362rem;
+}
+
+.tekstpakketlinks {
+    position: absolute;
+    top: -0.709rem;
+    right: 0.236rem;
+    font-size: 1.563rem;
+    font-family: "Parisienne";
+}
+
+.tekstpakketrechts {
+    position: absolute;
+    top: -0.709rem;
+    left: 0.236rem;
+    font-size: 1.563rem;
+    font-family: "Parisienne";
+}
+
+.productenlinks {
+    position: absolute;
+    top: 1.89rem;
+    right: 1.89rem;
+    font-size: 0.938rem;
+    font-family: "Cormorant-regular";
+}
+
+.productenrechts {
+    position: absolute;
+    top: 1.89rem;
+    left: 1.654rem;
+    font-size: 0.938rem;
+    font-family: "Cormorant-regular";
+}
+
+.tekstvierkant {
+    position: absolute;
+    top: -1.89rem;
+    left: 0;
+    margin-left: 0.472rem;
+    font-family: "Parisienne";
+}
+
+.tekstondervierkant {
+    position: absolute;
+    bottom: -1.181rem;
+    right: 1.417rem;
+    text-align: center;
+    font-family: "Parisienne";
+}
+
+.tekstrechthoek {
+    position: absolute;
+    top: -2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Parisienne";
+    width: 80%;
+}
+
+
+
+
+
+
+
